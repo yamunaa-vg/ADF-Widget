@@ -1,0 +1,138 @@
+{
+  "title": "Dashboard",
+  "structure": "6/6-6/12",
+  "rows": [
+    {
+      "columns": [
+        {
+          "styleClass": "col-md-2",
+          "widgets": [
+            {
+              "type": "counter",
+              "config": {
+                "MetricId": "1"
+              },
+              "title": "CPU",
+              "titleTemplateUrl": "../src/templates/widget-title.html",
+              "wid": "1476861168880-11"
+            }
+          ],
+          "cid": "1476861152024-1"
+        },
+        {
+          "styleClass": "col-md-2",
+          "widgets": [
+            {
+              "type": "counter",
+              "config": {
+                "MetricId": "2"
+              },
+              "title": "RAM",
+              "titleTemplateUrl": "../src/templates/widget-title.html",
+              "wid": "1476788600665-4"
+            }
+          ],
+          "cid": "1476861152025-2"
+        },
+        {
+          "styleClass": "col-md-2",
+          "widgets": [
+            {
+              "type": "counter",
+              "config": {
+                "MetricId": "3"
+              },
+              "title": "Disk Reads",
+              "titleTemplateUrl": "../src/templates/widget-title.html",
+              "wid": "1476860978049-8"
+            }
+          ],
+          "cid": "1476861152026-3"
+        },
+        {
+          "styleClass": "col-md-2",
+          "widgets": [
+            {
+              "type": "counter",
+              "config": {
+                "MetricId": "4"
+              },
+              "title": "Disk Writes",
+              "titleTemplateUrl": "../src/templates/widget-title.html",
+              "wid": "1476860983642-9"
+            }
+          ],
+          "cid": "1476861152028-4"
+        },
+        {
+          "styleClass": "col-md-2",
+          "widgets": [
+            {
+              "type": "counter",
+              "config": {
+                "MetricId": "5"
+              },
+              "title": "Network Ins",
+              "titleTemplateUrl": "../src/templates/widget-title.html",
+              "wid": "1476860992954-10"
+            }
+          ],
+          "cid": "1476861152028-5"
+        },
+        {
+          "styleClass": "col-md-2",
+          "widgets": [
+            {
+              "type": "counter",
+              "config": {
+                "MetricId": "6"
+              },
+              "title": "Network Outs",
+              "titleTemplateUrl": "../src/templates/widget-title.html",
+              "wid": "1476861160000-10"
+            }
+          ],
+          "cid": "1476861152030-6"
+        }
+      ]
+    },
+    {
+      "columns": [
+        {
+          "styleClass": "col-md-6",
+          "widgets": [],
+          "cid": "1476861152033-7"
+        },
+        {
+          "styleClass": "col-md-6",
+          "widgets": [],
+          "cid": "1476861152034-8"
+        }
+      ]
+    },
+    {
+      "columns": [
+        {
+          "styleClass": "col-md-12",
+          "widgets": [
+            {
+              "type": "livearea",
+              "config": {
+                "MetricIds": [
+                  1,
+                  2
+                ],
+                "ChartType": "Area"
+              },
+              "title": "Live Area Chart",
+              "titleTemplateUrl": "../src/templates/widget-title.html",
+              "wid": "1476861366973-12"
+            }
+          ],
+          "cid": "1476861152035-9"
+        }
+      ]
+    }
+  ],
+  "titleTemplateUrl": "../src/templates/dashboard-title.html"
+}

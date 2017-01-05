@@ -1,0 +1,151 @@
+{
+  "title": "Bhaskar",
+  "structure": "12/6-6",
+  "rows": [
+    {
+      "columns": [
+        {
+          "styleClass": "col-md-12",
+          "widgets": [
+            {
+              "type": "livearea",
+              "config": {
+                "MetricIds": [
+                  1,
+                  2
+                ],
+                "ChartType": "Line"
+              },
+              "title": "Live Area Chart",
+              "titleTemplateUrl": "../src/templates/widget-title.html",
+              "wid": "1476856472030-1"
+            },
+            {
+              "type": "livearea",
+              "config": {
+                "MetricIds": [
+                  1,
+                  2
+                ],
+                "ChartType": "Bar",
+                "MetricId": "1"
+              },
+              "title": "CPU",
+              "titleTemplateUrl": "../src/templates/widget-title.html",
+              "wid": "1476855449839-6"
+            },
+            {
+              "type": "livearea",
+              "config": {
+                "MetricId": 0,
+                "MetricIds": [
+                  1,
+                  2
+                ],
+                "ChartType": "Area"
+              },
+              "title": "CPU/Memory",
+              "titleTemplateUrl": "../src/templates/widget-title.html",
+              "wid": "1476837931652-1"
+            },
+            {
+              "type": "counter",
+              "config": {
+                "MetricId": "1"
+              },
+              "title": "Metric Counter",
+              "titleTemplateUrl": "../src/templates/widget-title.html",
+              "wid": "1476787160138-1"
+            },
+            {
+              "type": "counter",
+              "config": {
+                "MetricId": "4"
+              },
+              "title": "Metric Counter",
+              "titleTemplateUrl": "../src/templates/widget-title.html",
+              "wid": "1476706397894-1"
+            },
+            {
+              "type": "weather",
+              "config": {},
+              "title": "Weather",
+              "titleTemplateUrl": "../src/templates/widget-title.html",
+              "wid": "1476702990319-1"
+            },
+            {
+              "type": "randommsg",
+              "config": {},
+              "title": "Random Message",
+              "titleTemplateUrl": "../src/templates/widget-title.html",
+              "wid": "1476509155683-8"
+            },
+            {
+              "type": "githubHistory",
+              "config": {},
+              "title": "Github History",
+              "titleTemplateUrl": "../src/templates/widget-title.html",
+              "wid": "1476509135567-6"
+            },
+            {
+              "type": "news",
+              "config": {},
+              "title": "News",
+              "titleTemplateUrl": "../src/templates/widget-title.html",
+              "wid": "1476509141808-7"
+            }
+          ],
+          "cid": "1476854273333-3"
+        }
+      ]
+    },
+    {
+      "columns": [
+        {
+          "styleClass": "col-md-6",
+          "widgets": [
+            {
+              "type": "counter",
+              "config": {
+                "MetricId": "3"
+              },
+              "title": "Metric Counter",
+              "titleTemplateUrl": "../src/templates/widget-title.html",
+              "wid": "1476784978960-1"
+            },
+            {
+              "type": "counter",
+              "config": {
+                "MetricId": "2"
+              },
+              "title": "Metric Counter",
+              "titleTemplateUrl": "../src/templates/widget-title.html",
+              "wid": "1476784069964-1"
+            },
+            {
+              "type": "version",
+              "config": {},
+              "title": "Version",
+              "titleTemplateUrl": "../src/templates/widget-title.html",
+              "wid": "1476509186829-10"
+            },
+            {
+              "type": "weather",
+              "config": {},
+              "title": "Weather",
+              "titleTemplateUrl": "../src/templates/widget-title.html",
+              "wid": "1476509171844-9"
+            }
+          ],
+          "cid": "1476854273336-4"
+        },
+        {
+          "styleClass": "col-md-6",
+          "widgets": [],
+          "cid": "1476854273336-5"
+        }
+      ]
+    }
+  ],
+  "titleTemplateUrl": "../src/templates/dashboard-title.html"
+}

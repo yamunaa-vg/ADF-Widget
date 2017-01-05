@@ -1,0 +1,24 @@
+{
+  "name": "angular-progress-pie",
+  "main": "dist/angular-progress-pie.js",
+  "version": "1.6.0",
+  "homepage": "https://github.com/mishguruorg/angular-progress-pie",
+  "authors": [
+    "Ashok Fernandez"
+  ],
+  "description": "Simple pie progress indicator for AngularJS",
+  "keywords": [
+    "angular",
+    "pie",
+    "progress",
+    "indicator"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

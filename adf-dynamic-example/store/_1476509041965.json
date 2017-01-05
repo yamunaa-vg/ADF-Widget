@@ -1,0 +1,60 @@
+{
+  "title": "New Sample",
+  "structure": "3-9 (12/6-6)",
+  "rows": [
+    {
+      "columns": [
+        {
+          "styleClass": "col-md-3",
+          "widgets": [
+            {
+              "type": "livearea",
+              "config": {
+                "MetricIds": [
+                  1,
+                  2
+                ],
+                "ChartType": "Line"
+              },
+              "title": "Live Area Chart",
+              "titleTemplateUrl": "../src/templates/widget-title.html",
+              "wid": "1476860720733-8"
+            }
+          ],
+          "cid": "1476860713294-3"
+        },
+        {
+          "styleClass": "col-md-9",
+          "rows": [
+            {
+              "columns": [
+                {
+                  "styleClass": "col-md-12",
+                  "widgets": [],
+                  "cid": "1476860713303-5"
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "styleClass": "col-md-6",
+                  "widgets": [],
+                  "cid": "1476860713304-6"
+                },
+                {
+                  "styleClass": "col-md-6",
+                  "widgets": [],
+                  "cid": "1476860713304-7"
+                }
+              ]
+            }
+          ],
+          "widgets": [],
+          "cid": "1476860713295-4"
+        }
+      ]
+    }
+  ],
+  "titleTemplateUrl": "../src/templates/dashboard-title.html"
+}

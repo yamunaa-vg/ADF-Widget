@@ -1,0 +1,36 @@
+{
+  "name": "angular-progress-pie",
+  "version": "1.0.0",
+  "description": "Simple pie progress indicator for AngularJS",
+  "main": "angular-progress-pie.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mishguruorg/angular-progress-pie.git"
+  },
+  "keywords": [
+    "angular",
+    "progress",
+    "pie",
+    "indicator"
+  ],
+  "author": "Ashok Fernandez <ashok.fernandez@gmail.com> (https://ashokfernandez.wordpress.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mishguruorg/angular-progress-pie/issues"
+  },
+  "homepage": "https://github.com/mishguruorg/angular-progress-pie#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-ng-annotate": "^2.0.0",
+    "standard": "^6.0.8"
+  },
+  "standard": {
+    "ignore": [
+      "dist/**"
+    ]
+  }
+}
