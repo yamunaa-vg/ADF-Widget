@@ -6,6 +6,11 @@
       "columns": [
         {
           "styleClass": "col-md-2",
+          "widgets": [],
+          "cid": "1476868959231-4"
+        },
+        {
+          "styleClass": "col-md-2",
           "widgets": [
             {
               "type": "progress",
@@ -21,11 +26,6 @@
               "wid": "1478674172564-1"
             }
           ],
-          "cid": "1476868959231-4"
-        },
-        {
-          "styleClass": "col-md-2",
-          "widgets": [],
           "cid": "1476868959232-5"
         },
         {
@@ -42,22 +42,6 @@
           "styleClass": "col-md-2",
           "widgets": [
             {
-              "type": "piechart",
-              "config": {
-                "MetricId": 0,
-                "ChartType": ""
-              },
-              "title": "Pie Chart ",
-              "titleTemplateUrl": "../src/templates/widget-title.html",
-              "wid": "1483354772842-1"
-            }
-          ],
-          "cid": "1476868959233-8"
-        },
-        {
-          "styleClass": "col-md-2",
-          "widgets": [
-            {
               "type": "gauge",
               "config": {
                 "MetricId": "2"
@@ -67,6 +51,11 @@
               "wid": "1483079284534-1"
             }
           ],
+          "cid": "1476868959233-8"
+        },
+        {
+          "styleClass": "col-md-2",
+          "widgets": [],
           "cid": "1476868959234-9"
         }
       ]
@@ -76,19 +65,6 @@
         {
           "styleClass": "col-md-6",
           "widgets": [
-            {
-              "type": "progress",
-              "config": {
-                "MetricId": 0,
-                "MetricIds": [
-                  1,
-                  2
-                ]
-              },
-              "title": "Progress Bar",
-              "titleTemplateUrl": "../src/templates/widget-title.html",
-              "wid": "1477892649065-1"
-            },
             {
               "type": "livearea",
               "config": {
@@ -119,14 +95,17 @@
           "styleClass": "col-md-6",
           "widgets": [
             {
-              "type": "piechart",
+              "type": "progress",
               "config": {
                 "MetricId": 0,
-                "ChartType": ""
+                "MetricIds": [
+                  1,
+                  2
+                ]
               },
-              "title": "Pie Chart ",
+              "title": "Progress Bar",
               "titleTemplateUrl": "../src/templates/widget-title.html",
-              "wid": "1482316376540-1"
+              "wid": "1477892649065-1"
             }
           ],
           "cid": "1476868959237-11"

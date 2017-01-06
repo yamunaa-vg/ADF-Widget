@@ -29,7 +29,7 @@ angular.module('adfDynamicSample', [
     'adf.widget.clock', 'adf.widget.github', 'adf.widget.iframe',
     'adf.widget.linklist', 'adf.widget.markdown', 'adf.widget.news',
     'adf.widget.randommsg', 'adf.widget.version', 'adf.widget.weather','adf.widget.weather2','adf.widget.counter','adf.widget.epoch.livearea',
-	'adf.widget.progress','adf.widget.gauge','adf.widget.piechart','nvd3'
+	'adf.widget.progress','adf.widget.gauge'
 
   ])
   .config(function($routeProvider){
